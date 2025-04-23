@@ -1,6 +1,6 @@
 # GitHub User Checker
 
-A TypeScript command-line tool to check GitHub user information and their latest repository.
+A TypeScript command-line tool to check GitHub user information and their latest repository. NPM COMING UP.
 
 ## Features
 
