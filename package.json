@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "A CLI tool to check GitHub user information",
   "main": "dist/index.ts",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node ./scripts/add-shebang.js",
+    "prepare": "tsc && node ./scripts/add-shebang.js",
     "dev": "ts-node src/index.ts",
     "watch": "tsc -w"
+  },
+  "bin": {
+    "github-user-checker": "dist/index.js"
   },
   "dependencies": {
     "chalk": "^4.1.2"
