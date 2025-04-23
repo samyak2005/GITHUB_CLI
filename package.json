@@ -2,9 +2,8 @@
   "name": "github-user-checker",
   "version": "1.0.0",
   "description": "A CLI tool to check GitHub user information",
-  "main": "dist/index.js",
+  "main": "dist/index.ts",
   "scripts": {
-    "start": "node dist/index.js",
     "build": "tsc",
     "dev": "ts-node src/index.ts",
     "watch": "tsc -w"
@@ -16,5 +15,15 @@
     "@types/node": "^20.17.30",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyak2005/GITHUB_CLI.git"
+  },
+  "author": "Samyak Jhanjhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samyak2005/GITHUB_CLI/issues"
+  },
+  "homepage": "https://github.com/samyak2005/GITHUB_CLI#readme"
 }
