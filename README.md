@@ -13,26 +13,21 @@ A TypeScript command-line tool to check GitHub user information and their latest
 
 ## Installation
 
-1. Clone this repository
-2. Install dependencies:
+->Install via npx
+
 ```bash
-npm install
+npx gitdig-cli
 ```
 
-## Usage
+-> Install via npm:
 
-For development:
 ```bash
-npm run dev
-```
-
-For production:
-```bash
-npm run build
-npm start
+npm install -g gitdig-cli
+gitdig-cli
 ```
 
 Follow the prompts to:
+
 1. Enter a GitHub username to check
 2. View their profile information
 3. Choose to check another username or exit
@@ -47,4 +42,4 @@ Follow the prompts to:
 
 - chalk: For colored terminal output
 - TypeScript and Node.js type definitions
-- Node.js built-in modules (https, readline) 
+- Node.js built-in modules (https, readline)
