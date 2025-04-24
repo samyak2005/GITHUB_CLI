@@ -32,12 +32,6 @@ Follow the prompts to:
 2. View their profile information
 3. Choose to check another username or exit
 
-## Development
-
-- `npm run build` - Builds the TypeScript code
-- `npm run dev` - Runs the application in development mode with ts-node
-- `npm run watch` - Watches for changes and rebuilds automatically
-
 ## Dependencies
 
 - chalk: For colored terminal output
