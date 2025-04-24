@@ -1,8 +1,8 @@
 {
   "name": "gitdig-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to check GitHub user information",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "src",
@@ -15,7 +15,7 @@
     "watch": "tsc -w"
   },
   "bin": {
-    "github-user-checker": "dist/index.js"
+    "gitdig-cli": "dist/index.js"
   },
   "dependencies": {
     "chalk": "^4.1.2"
